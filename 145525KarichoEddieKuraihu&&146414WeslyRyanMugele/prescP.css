@@ -1,0 +1,84 @@
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-image: url('prescriptions6.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+    padding: 10px;
+}
+
+.header {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #336699;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #205987;
+}
+
+/* Style the container for the Back to Patient Home link */
+.back-link-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Style the Back to Patient Home link */
+.back-link {
+    font-size: 16px;
+    text-decoration: none;
+    color: #336699;
+    border-bottom: 1px solid #336699;
+}
+
+/* Apply hover effect to Back to Patient Home link */
+.back-link:hover {
+    background-color: #336699;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+.pharmacy-home-button {
+    display: block;
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.pharmacy-home-button a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.pharmacy-home-button a:hover {
+    background-color: #0056b3;
+}

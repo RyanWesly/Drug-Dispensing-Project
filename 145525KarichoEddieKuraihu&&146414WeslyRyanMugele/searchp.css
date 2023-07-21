@@ -1,0 +1,52 @@
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-image: url('prescriptions12.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+    padding: 10px;
+}
+
+.header-logo {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 24px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #336699;
+    border-radius: 5px;
+}
+
+.header-logo:hover {
+    background-color: #205987;
+}
+
+h1 {
+    color: #205987;
+    margin-top: 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #336699;
+    color: #fff;
+}
+
+tr:hover {
+    background-color: #f9f9f9;
+}
+
+p {
+    color: #205987;
+    margin-top: 20px;
+}

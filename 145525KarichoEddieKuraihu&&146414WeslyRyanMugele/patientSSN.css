@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('prescriptions6.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+    padding: 10px;
+    color: #333;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #336699;
+  }
+  
+  table {
+    max-width: 800px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Style table rows */
+  tr {
+    border-bottom: 1px solid #ccc;
+  }
+  
+  /* Style table cells */
+  td, th {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  /* Style table header cells */
+  th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Style table data cells */
+  td {
+    background-color: #f9f9f9;
+  }
+  
+  /* Style the table container when no data is found */
+  table.empty {
+    display: none;
+  }
+  
+  /* Style the message when no data is found */
+  p.no-data {
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 18px;
+    color: #999;
+  }
+  
+  /* Add some padding and center the content */
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Style the back button */
+  .back-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #336699;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    width: 150px;
+  }
+  
+  .back-button:hover {
+    background-color: #205987;
+  }
+  

@@ -1,0 +1,86 @@
+body {
+    background-image: url('pharmacy.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+    padding: 10px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-family: 'Impact', sans-serif;
+    background-color: transparent;
+    color:burlywood;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 150px;
+}
+
+.header-logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header-buttons {
+    display: flex;
+}
+
+.header-buttons button {
+    margin-left: 10px;
+}
+
+.content {
+    margin-top: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+.welcome-text {
+    font-size: 20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 10px;
+}
+
+.username {
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    margin-right: 10px;
+}
+
+.logout-button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.options-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 90px;
+}
+
+.option-button {
+    background: none;
+    border: none;
+    padding: 0;
+    outline: none;
+    cursor: pointer;
+    border: 10px solid lightblue;
+    border-radius: 18px;
+    padding: 15px 20px;
+    margin-left: 10px;
+    font-size: 18px;
+    font-family: 'Impact', sans-serif;
+    color: black;
+}
+.option-buttons button:hover {
+    background-color:aqua;
+    color: #fff;
+}
+

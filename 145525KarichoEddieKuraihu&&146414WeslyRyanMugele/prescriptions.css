@@ -1,0 +1,92 @@
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-image: url('prescriptions5.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+    padding: 10px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-family: 'Impact', sans-serif;
+    background-color: transparent;
+    color:black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 150px;
+}
+.header-buttons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.username {
+    margin-right: 10px;
+}
+
+.logout-button {
+    background: none;
+    border: none;
+    padding: 0;
+    outline: none;
+    cursor: pointer;
+    border: 10px solid lightblue;
+    border-radius: 18px;
+    padding: 15px 20px;
+    font-size: 18px;
+    font-family: 'Impact', sans-serif;
+    color: lightblue;
+}
+
+.logout-button:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: aqua;
+}
+
+p {
+    margin-top: 20px;
+}
+
+.pharmacy-home-button {
+    display: block;
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.pharmacy-home-button a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.pharmacy-home-button a:hover {
+    background-color: #0056b3;
+}

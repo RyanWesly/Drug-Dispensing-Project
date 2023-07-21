@@ -1,0 +1,84 @@
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    background-image: url('prescriptions12.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+    padding: 10px;
+    color: aliceblue;
+    position: relative; /* Add position relative to the body */
+}
+.header {
+    background-color: #336699;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    color: #fff;
+}
+
+.header-logo {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 24px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #336699;
+    border-radius: 5px;
+}
+
+.header-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.header-buttons button {
+    background-color: #fff;
+    color: #336699;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px; 
+}
+
+.header-buttons button:hover {
+    background-color: #336699;
+    color: #fff;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #336699;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 3px;
+    outline: none;
+}
+
+.logout-button {
+    position: absolute;
+    top: 10px; 
+    right: 10px; 
+    background: none;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+}
+
+/* Glow effect on hover */
+.logout-button:hover {
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.8); /* Add a glowing effect */
+}
